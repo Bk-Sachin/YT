@@ -26,3 +26,14 @@ git commit -m"some descriptive message"
 ```sh
 git push
 ```
+- Git Rebase
+```
+- main
+    - release/dev
+        - branch1
+        - branch2        
+```
+
+```sh
+git rebase main
+```
