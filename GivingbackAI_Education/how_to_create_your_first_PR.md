@@ -5,8 +5,24 @@
 
 ## How to create a new branch?
 
+- Create a new branch
 ```sh
 git checkout -b <name-of-branch> 
 
 # eg: git checkout -b my_branch
+```
+
+- Make changes to your files
+- Add changes to `git`.
+```sh
+git add <name-of-file>
+```
+
+- Commit your changes
+```sh
+git commit -m"some descriptive message"
+```
+- Push your commits to the `remote` branch.
+```sh
+git push
 ```
